@@ -31,3 +31,10 @@ A simple predictive analytics model can be carried out on real
 data using open source statistical modeling software. The results
 can be applied to produce real tangible improvements in a
 company's business performance.
+
+### Team Members
+- [@saikarthiksk](https://github.com/abhishekmali21) - **Sai Karthik**
+- [@praveeshagongura](https://github.com/AdityaSindol) - **Praveesha Gongura**
+- [@shreeram](https://github.com/shreeram) - **Shree Ram**
+- [@tharunsathu](https://github.com/tharunsathu) - **Tharun Sathu**
+
