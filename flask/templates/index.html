@@ -1,0 +1,190 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+  <div class="head">
+    <i class="fa fa-bank" style="font-size:48px;color:#C0392B"></i><label><b>PREDICTIVE ANALYTICS FOR RETAIL BANKING</b></label><br>
+  </div>
+<div class="info">
+  <br>
+  <label><emp>Simple Predictive Analytics Tool To Predict <br>Whether The Customer Will Make A Deposit Or Not </emp></label>
+</div>
+    <form action="/login" method="post">
+      <div class="row">  
+<div class="column1">
+        <span>
+          <input class="basic-slide"  name="age" type="text" placeholder="Enter your age"  ><label for="name">Age</label>
+        </span>
+      <br>
+      <span>
+        <input class="basic-slide" name="j" placeholder="CHOOSE A JOB" list="jobs"><label for="job">Job</label>
+        <datalist id="jobs">
+          <option value="admin">admin</option>
+          <option value="technician">technician</option>
+          <option value="services"> services</option>
+          <option value="management"> management</option>
+          <option value="retired"> retired</option>
+          <option value="blue-collar"> blue-collar</option>
+          <option value="unemployed"> unemployed</option>
+          <option value="entrepreneur"> entrepreneur</option>
+          <option value="housemaid"> housemaid</option>
+          <option value="unknown"> unknown</option>
+          <option value="self-employed"> self-employed</option>
+          <option value="student"> student</option>
+        </datalist>
+      </span>
+      <br>
+      <span>
+        <input  class="basic-slide" name="ms" placeholder="choose a marital status" list="marital"><label for="marital">Marital</label>
+        <datalist id="marital">
+          <option value="married"> married</option>
+          <option value="single"> single</option>
+          <option value="divorced"> divorced</option>
+        </datalist>
+      </span>
+      <br>
+      <span>
+        <input class="basic-slide" name="edu" placeholder="Enter Education Qualification" list="education" ><label for="education">Education </label>
+        <datalist id="education">
+          <option value="secondary"> secondary</option>
+          <option value="tertiary"> tertiary</option>
+          <option value="primary"> primary</option>
+          <option value="unknown"> unknown</option>
+        </datalist>
+      </span>
+      <br>
+      <span>    
+        <input class="basic-slide" name="de" placeholder="Enter default status" list="def"><label for="default">Default</label>
+        <datalist id="def"> 
+          <option value="no"> no</option>
+          <option value="yes"> yes</option>
+        </datalist>
+      </span>
+      <br>
+      <span>
+        <input class="basic-slide" type="text" name="balance" placeholder="Enter Balance" ><label for="bal">Balance</label>
+      </span>
+      <br>
+      <span> 
+        <input class="basic-slide" name="h" placeholder="Enter Housing status " list="house"><label for="housing">Housing</label>
+        <datalist id="house">
+          <option value="no"> no</option>
+          <option value="yes"> yes</option>
+      </datalist>
+      </span>
+      <br>
+      <span>
+        <input class="basic-slide" name="ln" placeholder="Enter loan status" list="loan"><label for="loan">Loan</label>
+        <datalist id="loan">
+          <option value="no"> no</option>
+          <option value="yes"> yes</option>
+        </datalist>
+      </span>
+    </div>
+      <br>
+      <div class="column2">
+      <span>
+        <input class="basic-slide" name="con" placeholder="Enter Contact Method" list="cc"><label for="contact">Contact</label>
+        <datalist id="cc">
+        <option value="unknown"> unknown</option>
+          <option value="cellular"> cellular</option>
+          <option value="telephone"> telephone</option>
+        </datalist>
+      </span>
+      <br>
+      <span>
+        <input class="basic-slide" name="dob" placeholder="Enter DAY" list="d"><label for="day">Day</label>
+        <datalist id="d">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </datalist>
+      </span>
+  
+      <br>
+     
+      <span>       
+        <input class="basic-slide" name="mon" placeholder="Enter Month" list="m"><label for="month">Month</label>
+          <datalist id="m">
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </datalist>
+      </span>
+      <br>
+      <span>
+        <input class="basic-slide" type="text" name="duration" placeholder="Enter Call Duration"><label for="dur">Duration</label>
+      </span>
+      <br>
+      <span>    
+      <input class="basic-slide" type="text" name="campaign" placeholder="Enter Call Duration"><label for="cam">Campaign</label>
+      </span>
+      <br>
+      <span>
+        <input class="basic-slide" type="text" name="pdays" placeholder="Enter Pdays "><label for="pd">Pdays</label>
+      </span>
+      <br>
+      <span>
+      <input class="basic-slide" type="number" name="previous"placeholder="Enter Previous Value"><label for="pre">Previous</label>
+      </span>
+      <br>
+      <span>        
+        <input class="basic-slide" name="p"placeholder="Enter Poutcome" list="pd"><label for="poutcome">Poutcome</label>
+        <datalist id="pd">
+          <option value="unknown"> unknown</option>
+          <option value="other"> other</option>
+          <option value="failure"> failure</option>
+          <option value="success"> success</option>
+      </datalist>
+      </span>
+      <br>
+      <span>
+      <input class="basic-slide" type="submit" value="SUBMIT" style="text-align: center;"> 
+      </span>
+    <br>
+      <b style="color:#E74C3C; font-size: 200%; font-family:Arial, Helvetica, sans-serif;GG">{{label}}</b>
+    </div>
+    </div>
+    </form>
+    
+</body>
+</html>
