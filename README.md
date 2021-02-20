@@ -36,8 +36,8 @@ can be applied to produce real tangible improvements in a
 company's business performance.
 
 ### Team Members
-- [@saikarthiksk](https://github.com/abhishekmali21) - **Sai Karthik**
-- [@praveeshagongura](https://github.com/AdityaSindol) - **Praveesha Gongura**
-- [@shreeram](https://github.com/shreeram) - **Shree Ram**
+- [@saikarthiksk](https://github.com/saikarthiksk) - **Sai Karthik**
+- [@praveeshagongura](https://github.com/praveeshagongura) - **Praveesha Gongura**
+- [@shreeram](https://github.com/shreeram-hub) - **Shree Ram**
 - [@tharunsathu](https://github.com/tharunsathu) - **Tharun Sathu**
 
