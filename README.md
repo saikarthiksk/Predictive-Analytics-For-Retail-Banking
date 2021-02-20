@@ -1,3 +1,6 @@
+![GitHub language count](https://img.shields.io/github/languages/count/saikarthiksk/Predictive-Analytics-For-Retail-Banking?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/saikarthiksk/Predictive-Analytics-For-Retail-Banking?logoColor=9cf&style=flat-square)
+
 # Predictive-Analytics-For-Retail-Banking
 
 It is important for banks to optimize the marketing strategies and
